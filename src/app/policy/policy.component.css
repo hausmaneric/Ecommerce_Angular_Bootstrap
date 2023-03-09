@@ -1,0 +1,41 @@
+.policy{
+  background-color: #242322;
+  opacity: .9;
+  height: 250px;
+  padding: 60px 0;
+}
+
+.round{
+  padding:23px;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  font-size: 34px;
+  background: rgba(255, 255, 255, .2);
+  transition: all .3s ease;
+  margin: 0 auto;
+  position: relative;
+}
+
+.round-icon{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+
+.policy-card:hover h2{
+  color: #ff4000;
+  cursor: pointer;
+}
+
+.policy-card:hover .round-icon{
+  color: white;
+}
+
+.policy-card:hover .round{
+  background-color: #ff4000;
+}
+
+

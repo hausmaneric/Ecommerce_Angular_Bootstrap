@@ -1,0 +1,9 @@
+<section class="partners">
+  <div class="containers">
+    <owl-carousel-o [options]="customOptions">
+      <ng-template *ngFor="let partnersArrays of partnersArray" carouselSlide><img src="{{partnersArrays.imgName}}" alt="Partners"></ng-template>
+    </owl-carousel-o>
+  </div>
+</section>
+
+

@@ -1,0 +1,67 @@
+.testimonial{
+  background-image: url(https://img.freepik.com/fotos-gratis/fundo-de-ficcao-cientifica-futurista-moderno_35913-2152.jpg?w=360);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 20px 0;
+  position: relative;
+}
+
+.testimonial-image{
+  width: 110px;
+  height: 110px;
+  margin: 0 auto;
+}
+
+.testimonial-image img{
+  border-radius: 50%;
+  border: 5px solid rgba(255, 255, 255, .1);
+  width: 100%;
+  height: 100%;
+}
+
+.testimonial-content h2{
+  font-size: 16px;
+  color: #ff4000;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 18px 0 .5rem;
+  line-height: 1.2px;
+}
+
+.testimonial-content h3{
+  font-size: 15px;
+  color: #fff;
+  line-height: 16px;
+  margin: 18px 0 10px;
+  letter-spacing: 0.4px;
+}
+
+.testimonial-content p{
+  position: relative;
+  margin: 28px 30% 70px 30%;
+  font-style: italic;
+  font-size: 15px;
+  color: #ccc;
+  line-height: 23px;
+}
+
+.testimonial-content p::before{
+  content: '\f10d';
+  font-family: FontAwesome;
+  position: absolute;
+  left: -15%;
+  top: -50%;
+  font-size: 42px;
+  color: rgba(255, 255, 255, .1);
+}
+
+.testimonial-content p::after{
+  content: '\f10e';
+  font-family: FontAwesome;
+  position: absolute;
+  right: -15%;
+  bottom: -50%;
+  font-size: 42px;
+  color: rgba(255, 255, 255, .1);
+}

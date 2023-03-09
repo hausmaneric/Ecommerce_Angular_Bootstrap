@@ -1,0 +1,62 @@
+<section class="best-selling">
+  <div class="container">
+    <div class="best-selling-container">
+      <div class="sale-price">
+        Sale <strong>14%</strong>
+      </div>
+      <div class="selling-col-1">
+        <div class="selling-left">
+          <ul>
+            <li>
+              <span class="count-date">{{days}}</span>
+              <span class="count-day">Days</span>
+            </li>
+            <li>
+              <span class="count-date">{{hours}}</span>
+              <span class="count-day">Hours</span>
+            </li>
+            <li>
+              <span class="count-date">{{mins}}</span>
+              <span class="count-day">Min</span>
+            </li>
+            <li>
+              <span class="count-date">{{secs}}</span>
+              <span class="count-day">Secs</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="selling-col-2">
+        <div class="selling-img">
+          <img src="https://m.media-amazon.com/images/I/61akJzywmPL._AC_SX679_.jpg" alt="">
+        </div>
+      </div>
+      <div class="selling-col-3">
+        <div class="selling-heading">
+          <a href="javascript:void(0);">Enim Pichana Enim</a>
+          <div class="selling-rating">
+            <i class="fa fa-start"></i>
+            <i class="fa fa-start"></i>
+            <i class="fa fa-start"></i>
+            <i class="fa fa-start"></i>
+            <i class="fa fa-start"></i>
+          </div>
+        </div>
+        <p>
+          {{content  | custompipe}}
+        </p>
+        <h3>
+          <span class="selling-amount">$230.00</span>
+          <span class="selling-discount">$202.00</span>
+        </h3>
+        <div class="selling-button">
+          <a href="javascript:void(0);" class="cart-btn"><i class="fa fa-shopping-cart"></i>Add To Cart</a>
+          <button type="button" class="main-button">
+            <a href="javascript:void(0);"><i class="fa fa-heart"></i></a>
+            <a href="javascript:void(0);"><i class="fa fa-search"></i></a>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
